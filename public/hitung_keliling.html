@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Keliling Segitiga</title>
+    <script src="../script/hitung_keliling.js" defer></script>
+    <link rel="stylesheet" href="../css/styless.css">
+
+</head>
+<body>
+    <h2 align="middle">Perhitungan Segitiga</h2>
+    <h3>Keliling Segitiga</h3>
+    <hr>
+    <div class="img-triangle">
+        <img src="../assets/triangle.png" alt="Segitiga" >
+    </div>
+    <section class="input-section">
+        <label for="sisiA">Sisi A:</label>
+        <input type="number" id="sisiA" placeholder="Masukkan sisi A"><br>
+        <label for="sisiB">Sisi B:</label>
+        <input type="number" id="sisiB" placeholder="Masukkan sisi B"><br>
+        <label for="sisiC">Sisi C:</label>
+        <input type="number" id="sisiC" placeholder="Masukkan sisi C"><br>
+        <div><b id="result"></b></div>
+        <nav class="navigation">
+            <a href="hitung_luas.html">Hitung Luas Segitiga</a>
+        </nav>
+        <div class="result-input">
+            <button onclick="hitungKeliling()">Hitung Keliling</button>
+            <button onclick="resetFormKeliling()">Reset</button>
+        </div>
+      
+    </section>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 0;
+   padding: 20px;
+   height: 100vh;
+}
+
+h2, h3 {
+   margin: 0;
+}
+
+hr {
+   width: 100%;
+   height: 2px;
+   background-color: black;
+}
+
+.image-triangle {
+   margin-bottom: 20px;
+}
+
+.input-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+input {
+   padding: 8px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   margin-bottom: 1px;
+}
+
+button {
+   padding: 8px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   background-color: rgb(104, 103, 103);
+   color: white;
+   cursor: pointer;
+
+}
+
+button:active {
+   background-color: rgb(54, 53, 53);
+   transform: translateY(2px);
+}
+
+#result-input {
+   margin-top: 10px;
+   font-weight: bold;
+   display: inline-block; 
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   margin-top: 10px;
+   transition: text-decoration 0.3s ease;
+   font-size: 13px;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.navigation {
+   padding-top: 8px;
+   padding-bottom: 6px;
+}
+
+#result {
+   font-size: 25px;
+}

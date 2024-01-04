@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Luas Segitiga</title>
+    <script src="../script/hitung_luas.js" defer></script>
+    <link rel="stylesheet" href="../css/styless.css">
+</head>
+
+<body>
+    <h2>Perhitungan Segitiga</h2>
+    <h3>Luas Segitiga</h3>
+    <hr>
+    <div class="img-triangle">
+        <img src="../assets/triangle.png" alt="Segitiga" align="middle">
+    </div>
+    <section class="input-section">
+        <label for="alas">Alas:</label>
+        <input class="input" type="number" id="alas" placeholder="Masukkan panjang alas"><br>
+        <label for="tinggi">Tinggi:</label>
+        <input class="input" type="number" id="tinggi" placeholder="Masukkan tinggi"><br>
+        <div><b id="result"></b></div>
+        <nav class="navigation">
+            <a href="hitung_keliling.html">Hitung Keliling Segitiga</a><br>
+        </nav>
+        <div class="result-input">
+            <button onclick="hitungLuas()">Hitung Keliling</button>
+            <button onclick="resetFormLuas()">Reset</button>
+        </div>
+    </section>
+</body>
+
+</html>
